@@ -1,7 +1,6 @@
 :root {
 
   font-size: 1rem;
-  line-height: 1.5rem;
   font-weight: 400;
 
   font-synthesis: none;
@@ -11,10 +10,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+html, body {
   margin: 0;
   box-sizing: border-box;
   min-width: 320px;
   min-height: 100vh;
+  padding: 0;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
 }
 

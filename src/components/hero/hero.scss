@@ -1,0 +1,14 @@
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/mixins' as mx;
+
+.hero{
+    height: 100vh;
+    background-image: url(../../assets/jwst_carina.png);
+    background-size: cover;
+    margin-top: 1rem;
+    box-shadow: inset 0 0 0 50vw #0d1b2ad0;
+    display: flex;
+    &__title{
+        @include mx.heading;
+    }
+}

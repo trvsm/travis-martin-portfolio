@@ -2,8 +2,11 @@
 .nav {
   background-color: $overlay;
   color: $primary-text;
-  position: fixed top 0 left 0;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
   &__links {
