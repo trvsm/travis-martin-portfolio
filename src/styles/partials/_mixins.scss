@@ -2,5 +2,6 @@
 @mixin heading{
   font-size: 3rem;
   font-weight: 700;
-  color: $primary-text;  
+  color: $primary-text; 
+  margin: 0; 
 }

@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./App.scss";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
+import Projects from "./components/projects/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +11,7 @@ function App() {
   return (<>
       <Header />
       <Hero />
+      <Projects/>
 
     <div className="App">
       <div className="card">

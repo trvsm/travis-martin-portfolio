@@ -1,5 +1,5 @@
+@use './styles/partials/colors' as *;
 :root {
-
   font-size: 1rem;
   font-weight: 400;
 
@@ -10,15 +10,19 @@
   -webkit-text-size-adjust: 100%;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   box-sizing: border-box;
   min-width: 320px;
   min-height: 100vh;
   padding: 0;
+  background-color: $primary-background;
+  color: $primary-text;
 }
 
-*, *::after, *::before{
+*,
+*::after,
+*::before {
   box-sizing: inherit;
 }
-
