@@ -1,0 +1,7 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as mx;
+
+.elevator {
+  height: 100vh;
+  background-color: $light-background;
+}

@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import "./App.scss";
+import ElevatorBio from "./components/elevatorBio/ElevatorBio";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Hero />
       <Projects/>
+      <ElevatorBio/>
 
     <div className="App">
       <div className="card">

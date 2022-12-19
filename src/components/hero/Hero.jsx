@@ -7,6 +7,7 @@ export default function Hero() {
         "He lingered there, watching an eddy that turned and turned, until the
         stream absorbed it, and carried it on to the sea. -'Like me!'" -Dickens
       </h1>
+      <p className="hero__text">personal tagline/hook/about</p>
     </div>
   );
 }

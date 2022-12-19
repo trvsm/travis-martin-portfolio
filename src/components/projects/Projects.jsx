@@ -5,11 +5,11 @@ export default function Projects() {
     <div className="projects">
       <h2 className="projects__title">My projects</h2>
       <div className="projects__gallery">
-        <div className="projects__feature"></div>
-        <div className="projects__feature"></div>
-        <div className="projects__feature"></div>
-        <div className="projects__feature"></div>
-        <div className="projects__feature"></div>
+        <div className="projects__feature">coming soon</div>
+        <div className="projects__feature">coming soon</div>
+        <div className="projects__feature">coming soon</div>
+        <div className="projects__feature">coming soon</div>
+        <div className="projects__feature">coming soon</div>
       </div>
     </div>
   );
