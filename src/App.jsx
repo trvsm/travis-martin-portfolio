@@ -5,6 +5,7 @@ import ElevatorBio from "./components/elevatorBio/ElevatorBio";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
+import Technologies from "./components/technologies/Technologies";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Projects/>
       <ElevatorBio/>
+      <Technologies/>
 
     <div className="App">
       <div className="card">
