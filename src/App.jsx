@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import "./App.scss";
 import ElevatorBio from "./components/elevatorBio/ElevatorBio";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
@@ -24,6 +25,7 @@ function App() {
         </button>
       </div>
     </div>
+    <Footer/>
   </>
   );
 }
