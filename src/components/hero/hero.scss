@@ -1,15 +1,20 @@
-@use '../../styles/partials/colors' as *;
-@use '../../styles/partials/mixins' as mx;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as mx;
 
-.hero{
-    height: 100vh;
-    background-image: url(../../assets/kekabeka.jpeg);
-    background-size: cover;
-    box-shadow: inset 0 0 0 50vw #0d1b2ad0;
-    display: flex;
-    align-items: center;
-    &__title{
-
-        @include mx.heading;
-    }
+.hero {
+  height: 100vh;
+  background-image: url(../../assets/kekabeka.jpeg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 50vw #0d1b2ad0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__title {
+    padding-top: 3rem;
+    @include mx.heading;
+  }
+  &__photo {
+    font-size: 0.75rem;
+  }
 }

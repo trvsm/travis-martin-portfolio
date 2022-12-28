@@ -1,6 +1,6 @@
 @use './colors' as *;
 @mixin heading{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: $primary-text; 
   margin: 0; 
