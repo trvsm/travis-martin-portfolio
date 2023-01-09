@@ -5,12 +5,16 @@ export default function Projects() {
     <div className="projects" id="projects">
       <h2 className="projects__title">My projects</h2>
       <div className="projects__gallery">
-        <div className="projects__feature projects__feature--meal">
+        <a
+          href="https://github.com/trvsm/travis-martin-meal-planner"
+          target={"blank"}
+          className="projects__feature projects__feature--meal"
+        >
           <h3 className="projects__name">Meal Planner</h3>
           <p className="projects__description">
             View & select recipes, compile a shopping list. React, Express, Node
           </p>
-        </div>
+        </a>
         <a
           href="https://github.com/trvsm/ea-industry-frontend"
           target={"blank"}

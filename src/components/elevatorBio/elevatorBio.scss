@@ -5,12 +5,15 @@
   &__container {
     min-height: 50vh;
     background-color: $light-background;
+    max-width: 30rem;
+    margin: 0 auto;
   }
   &__title {
     padding-top: 3rem;
     @include mx.heading;
   }
-  &__context, &__why{
+  &__context,
+  &__why {
     margin: 0;
     padding: 0.5rem;
   }

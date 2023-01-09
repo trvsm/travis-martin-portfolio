@@ -4,6 +4,8 @@
 .technologies {
   &__container {
     min-height: 24vh;
+    max-width: 30rem;
+    margin: 0 auto;
   }
   &__title {
     @include mx.heading;
