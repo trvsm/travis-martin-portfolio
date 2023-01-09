@@ -14,10 +14,10 @@ export default function Header() {
             <a href="#">Home</a>
           </li>
           <li className="nav__link">
-            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="nav__link">
-            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
           </li>
         </ul>
       </section>
