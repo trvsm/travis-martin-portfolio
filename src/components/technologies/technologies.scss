@@ -1,12 +1,17 @@
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/mixins" as mx;
 
-.technologies{
-    &__container{
-        height: 48vh;
-    }
-    &__title{
-        @include mx.heading;
-        padding-top: 3rem;
-    }
+.technologies {
+  &__container {
+    height: 44vh;
+  }
+  &__title {
+    @include mx.heading;
+    padding-top: 3rem;
+  }
+  &__proficient,
+  &__learning {
+    margin: 0;
+    padding: 0.5rem;
+  }
 }

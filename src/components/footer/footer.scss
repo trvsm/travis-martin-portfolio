@@ -1,0 +1,9 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as mx;
+
+.footer{
+    background-color: $overlay;
+    height: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}

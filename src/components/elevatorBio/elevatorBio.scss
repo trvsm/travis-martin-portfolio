@@ -6,6 +6,12 @@
     height: 50vh;
     background-color: $light-background;
   }
-  &__title{padding-top: 3rem;
-  @include mx.heading;}
+  &__title {
+    padding-top: 3rem;
+    @include mx.heading;
+  }
+  &__context, &__why{
+    margin: 0;
+    padding: 0.5rem;
+  }
 }
