@@ -3,11 +3,11 @@
 
 .technologies {
   &__container {
-    height: 44vh;
+    min-height: 24vh;
   }
   &__title {
     @include mx.heading;
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
   &__proficient,
   &__learning {

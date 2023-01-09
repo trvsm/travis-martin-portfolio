@@ -6,6 +6,7 @@
   &__title {
     margin: 0;
     padding-top: 3rem;
+    @include mx.heading;
   }
   &__gallery {
     min-width: 80vw;

@@ -19,8 +19,10 @@
     padding: 0.5rem;
     list-style-type: none;
   }
-  &__logo{font-size: 1.5rem;
-  padding-left: 1rem;}
+  &__logo {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
 }
 
 .menu {
@@ -44,6 +46,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-right: 1rem;
 }
 
 #menu-toggle {

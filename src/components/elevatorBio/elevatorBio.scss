@@ -3,7 +3,7 @@
 
 .elevator {
   &__container {
-    height: 50vh;
+    min-height: 50vh;
     background-color: $light-background;
   }
   &__title {
