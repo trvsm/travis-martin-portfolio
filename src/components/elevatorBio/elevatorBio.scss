@@ -2,6 +2,9 @@
 @use "../../styles/partials/mixins" as mx;
 
 .elevator {
-  height: 100vh;
-  background-color: $light-background;
+  &__container {
+    height: 100vh;
+    background-color: $light-background;
+  }
+  &__title{padding-top: 3rem;}
 }

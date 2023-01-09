@@ -10,10 +10,15 @@ export default function Header() {
           <div className="menu-button"></div>
         </label>
         <ul className="menu">
-          <li className="nav__link">Home</li>
-          <li className="nav__link">About</li>
-          <li className="nav__link">Projects</li>
-          <li className="nav__link">Blog</li>
+          <li className="nav__link">
+            <a href="#">Home</a>
+          </li>
+          <li className="nav__link">
+            <a href="#about">About</a>
+          </li>
+          <li className="nav__link">
+            <a href="#projects">Projects</a>
+          </li>
         </ul>
       </section>
       <a className="nav__link" href="#">
