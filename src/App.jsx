@@ -9,24 +9,15 @@ import Projects from "./components/projects/Projects";
 import Technologies from "./components/technologies/Technologies";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (<>
+  return (
+    <>
       <Header />
       <Hero />
-      <Projects/>
-      <ElevatorBio/>
-      <Technologies/>
-
-    <div className="App">
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </div>
-    <Footer/>
-  </>
+      <Projects />
+      <ElevatorBio />
+      <Technologies />
+      <Footer />
+    </>
   );
 }
 

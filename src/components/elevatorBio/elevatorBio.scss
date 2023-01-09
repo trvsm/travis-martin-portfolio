@@ -3,8 +3,9 @@
 
 .elevator {
   &__container {
-    height: 100vh;
+    height: 50vh;
     background-color: $light-background;
   }
-  &__title{padding-top: 3rem;}
+  &__title{padding-top: 3rem;
+  @include mx.heading;}
 }
