@@ -8,6 +8,10 @@
     padding-top: 3rem;
     @include mx.heading;
   }
+  &__name,
+  &__description {
+    margin: 0;
+  }
   &__gallery {
     min-width: 80vw;
     display: flex;
@@ -16,10 +20,23 @@
     justify-content: space-around;
   }
   &__feature {
-    margin: 0.5rem;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.5rem;
     width: 15rem;
     aspect-ratio: 1;
     border: 4px solid $divider;
+    box-shadow: inset 0 0 0 50vw #0d1b2aa0;
+    padding: 0.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &--ea {
+      background-image: url(/Screenshot\ from\ 2023-01-09\ 15-08-06.png);
+    }
+    &--exercise {
+      background-image: url(/88AA8E5B-0474-4186-8B24-D31474668047.jpeg);
+    }
   }
 }
