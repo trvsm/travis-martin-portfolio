@@ -3,7 +3,6 @@
 
 .projects {
   min-height: 50vh;
-  max-width: 50rem;
   margin: 0 auto;
   &__title {
     margin: 0;
@@ -40,8 +39,8 @@
     &--exercise {
       background-image: url(/88AA8E5B-0474-4186-8B24-D31474668047.jpeg);
     }
-    &--meal{
-        background-image: url(/Screenshot\ from\ 2023-01-09\ 15-23-42.png);
+    &--meal {
+      background-image: url(/Screenshot\ from\ 2023-01-09\ 15-23-42.png);
     }
   }
 }
