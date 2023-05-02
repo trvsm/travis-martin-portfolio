@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - name: Install dependencies
+      command: yarn install
+    - name: Build app
+      command: yarn build
+    - export DEPLOYPATH=/home/travis-vite-site/dist/
+    - /bin/cp -R images $DEPLOYPATH
