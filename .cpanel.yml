@@ -5,5 +5,5 @@ deployment:
       command: yarn install
     - name: Build app
       command: yarn build
-    - export DEPLOYPATH=/home/travis-vite-site/dist/
+    - export DEPLOYPATH=/home/travdxpu/repositories/travis-martin-portfolio/
     - /bin/cp -R images $DEPLOYPATH
